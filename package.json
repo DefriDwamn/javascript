@@ -8,7 +8,6 @@
     "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
     "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
     "pretest": "npm run --silent lint",
-    "test": "npm run --silent test:config && npm run --silent test:config:base",
     "test:config": "cd packages/eslint-config-airbnb; npm test",
     "test:config:base": "cd packages/eslint-config-airbnb-base; npm test",
     "pretravis": "npm run --silent lint",
