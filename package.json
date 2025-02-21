@@ -7,7 +7,6 @@
     "postinstall": "rm -rf node_modules/markdownlint-cli/node_modules/markdownlint",
     "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
     "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
-    "lint": "markdownlint --config linters/.markdownlint.json README.md */README.md",
     "pretest": "npm run --silent lint",
     "test": "npm run --silent test:config && npm run --silent test:config:base",
     "test:config": "cd packages/eslint-config-airbnb; npm test",
