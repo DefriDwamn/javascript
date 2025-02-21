@@ -14,8 +14,6 @@
     "test:config:base": "cd packages/eslint-config-airbnb-base; npm test",
     "pretravis": "npm run --silent lint",
     "travis": "npm run --silent travis:config && npm run --silent travis:config:base",
-    "travis:config": "cd packages/eslint-config-airbnb; npm run travis",
-    "travis:config:base": "cd packages/eslint-config-airbnb-base; npm run travis"
   },
   "repository": {
     "type": "git",
